@@ -1,0 +1,157 @@
+
+.sidebar {
+  background: #fff;
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  padding-left: 2%;
+  overflow: hidden;
+  padding: 0;
+  top:0;
+  padding-top: 60px;
+}
+
+.sidebar hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  width: 85%;
+}
+.container {
+  padding-left: 20%;
+  background-color: #fff;
+}
+.shortcut-links,
+.register {
+  padding: 10px;
+}
+.subscribed-list {
+  padding: 10px;
+  height: 270px;
+}
+
+.subscribed-list a{
+  width: auto;
+  margin-top: -15px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.subscribed-list a:hover{
+  background-color: #e7e7e7;
+
+}
+.shjskdhjkasdsa {
+  width: 24px;
+  height: 24px;
+}
+.horizontal {
+  border-bottom: 2px solid #e7e7e7;
+}
+.sidebar-sub {
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.sidebar-sub * {
+  color: #000;
+}
+.sidebar-sub:hover {
+  background-color: #f2f0f5 !important;
+}
+.sidebar-sub a {
+  margin: 0;
+}
+.sidebar p{
+    font-size:14px;
+}
+
+.sidebar:hover {
+  overflow: auto;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.text{
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 12px 12px 12px 0px;
+    background-color: #f2f0f5;
+    white-space: nowrap;
+}
+body {
+  overflow-x: hidden;
+}
+
+.dfd-fsd-d-f-ad-asa {
+  padding: 0 5px;
+  margin-top: 12px;
+}
+/* -- tùy chỉnh thanh scroll ở sidebar */
+.sidebar::-webkit-scrollbar {
+  width: 11px;
+}
+.sidebar::-webkit-scrollbar-track {
+  background: #fff;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #9b9b9b;
+  border-radius: 7px;
+  border: 2px solid #fff;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #737373;
+}
+/* -- tùy chỉnh thanh scroll ở body */
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body::-webkit-scrollbar-track {
+  background: #fff;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #9b9b9b;
+  border-radius: 7px;
+  border: 2px solid #fff;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #737373;
+}
+/* --thông tin thêm -- */
+.footer-sub {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.footer {
+  padding: 10px;
+}
+.footer-heading {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.sidebar-sub-heading {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-heading {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}

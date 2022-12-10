@@ -1,0 +1,220 @@
+.lists-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.sports-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sports-list {
+    flex: 1 1 0;
+    padding-right: 5px;
+    display: flex;
+}
+
+.sports-list-vd {
+    width: 100%;
+    height: auto;
+}
+
+.sports-list-img {
+    width: 100%;
+    aspect-ratio: 210 / 118;
+    border-radius: 5px;
+}
+
+.sports-list-note {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    font-family:Times New Roman ;
+}
+
+.sports-list-name {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.sports-list-view {
+    font-size: 14px;
+}
+
+
+/* music */
+
+.container-sub {
+    width: 100%;
+    padding: 56px 0;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container-view {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container-note {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.container-view,
+.container-note {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.lists {
+    width: 100%;
+    height: 160px;
+    padding: 10px 30px;
+    background-color: #d9d9d9;
+}
+
+.lists-note {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.lists-sub {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lists-login {
+    padding: 10px;
+    border-radius: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.grids {
+    width: 100%;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.grids-sub {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.grids-heading {
+    display: flex;
+    align-items: center;
+}
+
+.grids-vd {
+    float: 1 1 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grids-img {
+    width: 118px;
+    aspect-ratio: 1 / 1;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.grids-name {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.grids-note,
+.grids-view {
+    font-size: 12px;
+}
+
+.game {
+    width: 100%;
+}
+
+.game-sub {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.game-heading {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.game-list {
+    flex: 1 1 0;
+    padding-right: 10px;
+}
+
+.game-list-vd {
+    width: 100%;
+}
+
+.game-list-img {
+    width: 100%;
+    aspect-ratio: 183 / 256;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.game-list-note {
+    font-weight: 600;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.game-list-view {
+    margin-top: 8px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.sports {
+    width: 100%;
+    
+}
+
+.sports-sub {
+    font-weight: 600;
+    margin-bottom: 12px;
+}

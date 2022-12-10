@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.short {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.short-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.short-vd {
+    width: 325px;
+    height: 585px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.short-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.short-list-vd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.short-list-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.short-list-login {
+    padding: 10px;
+    border-radius: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.short-heading {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.short-note {
+    color: #fff;
+}
+
+.short-grid-vd {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #f2f0f5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.short-grid-img {
+    width: 24px;
+    height: 24px;
+}
+
+.short-grid-note {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.short-list-name {
+    color: #fff;
+}
+
+.short-grid {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
